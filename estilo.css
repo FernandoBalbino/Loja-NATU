@@ -1,0 +1,265 @@
+@keyframes anima{
+			0%{
+				width: 0%;
+			}
+			100%{
+				width: 100%;
+			}
+		}
+
+	
+		
+		
+		.btn-close{
+			animation-name: anima;
+			animation-duration: 0.9s;
+			animation-direction: reverse;
+		}
+		.modal{
+			
+			animation-name: anima;
+			animation-duration: 1s;
+			
+		}
+		
+
+	body{
+		font-family: 'Karla', sans-serif;
+		
+	}
+	.col-md-4{
+		transform: rotate(30deg);
+		margin-top: 60px;
+	}
+
+	.row{
+		overflow: hidden;
+	}
+	.homepage{
+		
+		height: 110vh;
+		width: 100%;
+		
+		background:url(bg2.jpg);
+
+		background-repeat: no-repeat;
+
+
+		background-size: cover;
+		
+		
+		
+	}
+
+ #bass ul.navbar-nav .nav-item .nav-link{
+	color: white;
+	font-size: 20px;
+	letter-spacing: 3px;
+}
+
+#bass ul.navbar-nav .nav-item .nav-link:hover{
+	color: black;
+}
+
+
+
+
+	
+	
+
+	h1.display-1{
+		box-sizing: border-box;
+		color: white;
+		text-transform: uppercase;
+		letter-spacing: 10px;
+		font-weight: bolder;
+		
+		font-size: 80px;
+		font-family: 'Ubuntu', sans-serif;
+	}
+
+	h2{
+		color: #F27600;
+	}
+
+	
+
+	p.lead{
+		color: black;
+		letter-spacing: 3px;
+		font-size: 25px;
+		font-weight: 300;
+		line-height: 35px;
+	}
+
+
+	.sobre{
+		text-align: center;
+	}
+
+	#menu .container-fluid{
+		background: rgba(0,0,0,0.6);
+	}
+
+	#produtos-carousel img{
+		height: 500px;
+		border-radius: 20px;
+
+	}
+
+	.navbar{
+		padding: 0;
+	}
+
+	.svg{
+	position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3rem;
+    width: 100%;
+    color: white;
+	}
+
+	#efeito{
+		background-image: url(sorriso.png);
+		background-repeat: no-repeat;
+		background-attachment:fixed;
+		background-position: right center;
+	}
+
+	
+
+	section{
+		
+		padding: 10px;
+		margin-bottom:70px;
+
+		
+		
+	}
+
+	#footer{
+		background-color: #FCD825;
+		padding: 10px;
+	}
+
+	#footer a{
+		text-decoration: none;
+		color: white;
+		font-weight: bold;
+		font-size: 20px;
+	}
+
+	@media screen and (max-width: 700px) {
+		h1.display-1{
+			font-size: 40px;
+		}
+
+		.col-md-5{
+			order: -1;
+		}
+
+		#watermelon{
+			order: -1;
+		}
+
+		#produtos-carousel img{
+		height: 300px;
+
+		}
+
+		.modal-body{
+			background-color: #FCD825;
+		}
+
+		.modal-body li{
+			background-color: #FCD825;
+			border:none;
+		}
+
+		.modal-body a{
+			text-decoration: none;
+			display: block;
+			color: white;
+		}
+
+		#homepage-id p{
+			font-weight: bold;
+			letter-spacing: 0;
+		}
+
+		#homepage-id h1{
+			font-weight: bold;
+			font-size: 55px;
+		}
+	}
+
+
+
+	
+
+	span.navbar-brand{
+		font-family: 'Ubuntu', sans-serif;
+		font-weight: 900;
+		font-size: 30px;
+		letter-spacing: 4px;
+	}
+
+	
+
+	#menu .navbar{
+		background-color: red;
+	}
+
+	 #homepage-id{
+		box-shadow: 0px 12px 25px #242d4930;
+	}
+
+	.col-md-5, #watermelon{
+		text-align: center;
+	}
+
+
+	.col-md-7 a.btn{
+		
+		color: white;
+		padding: 10px 20px;
+		margin-bottom: 15px;
+	}
+
+
+
+
+
+	
+
+	.container-fluid span.navbar-brand{
+		color: white;
+		padding: 10px 15px;
+	}
+
+	.shop{
+		background-color: #FCD825;
+		background-image: url(m1.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	#shop-row{
+		
+		
+	}
+	
+
+	 header{
+	 	
+	 	position: relative;
+	 	margin-bottom: 120px;
+	 }
+
+	 
+
+	 ul.navbar-nav .nav-item .nav-link{
+	 	color: black;
+	 	padding: 15px 20px;
+	 	font-size: 18px;
+	 }
